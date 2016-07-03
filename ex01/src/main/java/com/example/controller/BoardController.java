@@ -73,7 +73,7 @@ public class BoardController {
 		logger.info("mod post..............");
 		service.modify(board);
 		rttr.addFlashAttribute("msg", "SUCCESS");
-		return "redirect:/board/listAll";
+		return "redirect:/board/listPage";
 	}
 	
 	@RequestMapping(value="/listCri", method=RequestMethod.GET)
