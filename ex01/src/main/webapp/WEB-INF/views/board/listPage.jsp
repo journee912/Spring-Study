@@ -3,6 +3,16 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page session="false" %>
 <%@ include file="../include/header.jsp" %>
+<html>
+<head>
+<script >
+	var result = '${msg}';
+	if(result == 'SUCCESS'){
+		alert("처리가 완료되었습니다.");
+	}
+</script>
+</head>
+</html>
 <table class="table table-bordered">
 	<tr>
 	<th style="width: 10px">BNO</th>

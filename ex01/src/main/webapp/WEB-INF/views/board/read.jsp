@@ -20,7 +20,7 @@ $(document).ready(function(){
 		formObj.submit();
 	});
 	$(".btn-primary").on("click", function(){
-		self.location = "/board/listAll"
+		self.location = "/board/listPage"
 	
 	});	
 	$(".btn-warning").on("click", function(){
@@ -56,7 +56,7 @@ $(document).ready(function(){
 <div class="box-footer">
 	<button type="submit" class="btn btn-warning">Modify</button>
 	<button type="submit" class="btn btn-danger">Remove</button>
-	<button type="submit" class="btn btn-primary">List All</button>
+	<button type="submit" class="btn btn-primary">List Page</button>
 </div>
 
 <%@ include file="../include/footer.jsp" %>
